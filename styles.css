@@ -1,2 +1,36 @@
-
 /* Your CSS Code here. */
+.player {
+    max-width: 750px;
+    margin: 50px auto;
+  }
+  
+  .player__video {
+    width: 100%;
+  }
+  
+  .player__button {
+    background: none;
+    border: none;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    width: 50px;
+    flex: 1;
+  }
+  
+  .player__slider {
+    width: 100px;
+    flex: 5;
+  }
+  
+  .progress {
+    display: flex;
+    height: 5px;
+    background: #eee;
+    cursor: pointer;
+  }
+  
+  .progress__filled {
+    background: #ff0000;
+    width: 50%;
+  }
